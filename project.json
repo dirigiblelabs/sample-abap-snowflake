@@ -1,0 +1,9 @@
+{
+    "guid": "sample-abap-snowflake",
+    "actions": [
+        {
+            "name": "build",
+            "command": "sh build.sh"
+        }
+    ]
+}
