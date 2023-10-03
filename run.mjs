@@ -1,8 +1,6 @@
 import { initializeABAP } from './output/init.mjs';
-import { zcl_hello_world } from './output/zcl_hello_world.clas.mjs';
+import { zcl_query_snowflake } from './output/zcl_query_snowflake.clas.mjs';
 
-//console.log("Initialize ABAP runtime");
 await initializeABAP();
 
-//console.log("Call ABAP");
-await zcl_hello_world.run();
+await zcl_query_snowflake.run();
