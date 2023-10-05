@@ -9,6 +9,8 @@ Snowflake connection from ABAP sample backed by open-abap
 
 <img src="images/add-snowflake.png" width="50%">
 
+<img src="images/snowflake-database.png" width="50%">
+
 1. Clone project in Dirigible
 
 <img src="images/abap-code.png" width="50%">
