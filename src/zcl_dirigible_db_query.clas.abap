@@ -10,7 +10,7 @@ ENDCLASS.
 
 CLASS zcl_dirigible_db_query IMPLEMENTATION.
   METHOD execute.
-    WRITE '@KERNEL const db = await import("@dirigible/db");'.
+    WRITE '@KERNEL const db = await import("sdk/db");'.
     WRITE '@KERNEL let resultset = db.query.execute(sql_in.get(), [], datasource_in.get());'.
     WRITE '@KERNEL resultset_out.set(JSON.stringify(resultset));'.
   ENDMETHOD.
