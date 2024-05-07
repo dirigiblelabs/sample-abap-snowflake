@@ -3,8 +3,17 @@
     "actions": [
         {
             "name": "build",
-            "command": "sh build.sh",
-            "publish": true
+            "commands": [
+                {
+                    "os": "mac",
+                    "command": "sh build-mac.sh"
+                },
+                {
+                    "os": "linux",
+                    "command": "sh build-linux.sh"
+                }
+            ],
+            "publish": "true"
         }
     ]
 }
